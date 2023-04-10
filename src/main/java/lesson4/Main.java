@@ -11,7 +11,6 @@ public class Main {
     private static void ex0() {
         final int SIZE = 10_000_000;
         Random random = new Random();
-
         List<Integer> linkedList = new LinkedList<>();
         long start = System.currentTimeMillis();
         for (int i = 0; i < SIZE; i++) {

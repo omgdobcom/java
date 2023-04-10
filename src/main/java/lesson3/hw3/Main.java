@@ -13,7 +13,7 @@ public class Main {
 
     }
 
-    private static void ex01() {
+    public static void ex01() {
         Random random = new Random();
         List<Integer> list = new ArrayList<>();
         for (int i = 0; i < 30; i++) {
